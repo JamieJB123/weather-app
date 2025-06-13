@@ -1,0 +1,38 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #395390;
+}
+#banner {
+    background-image: url(../images/weather.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #ffffffa8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#input {
+    background-color: #395390;
+    border: 2px solid #ffffff50;
+    color: #ffffffa6;
+    font-weight: bold;
+}
+#weather-result {
+    max-width: 20rem;
+}
+#weather-result p {
+    background-color: #395390;
+    color: #ffffffa6;
+    border: 2px solid #ffffff50;
+    padding: 0.5rem;
+    min-width: 224px;
+    min-height: 40px;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+#weather-result .input-group-text {
+    min-width: 90px;
+}
